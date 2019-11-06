@@ -23,6 +23,13 @@ class App extends React.Component {
       }
     }
   }
+  editorSubjectChanged = (e) => {
+    this.setState({
+      editor: {
+        subject: e.target.value
+      }
+    });
+  }
   editorContentChanged = (e) => {
     this.setState({
       editor: {
@@ -42,7 +49,7 @@ class App extends React.Component {
           <Row>
             <Col xs={2} className="area-list-background">
               <Container className="area-list">
-                1 of 3
+                Create a new markdown
             </Container></Col>
             <Col xs={5} className="area-editor-background">
               <Container className="area-editor">
@@ -52,6 +59,7 @@ class App extends React.Component {
                       placeholder="Subject"
                       aria-label="Subject"
                       aria-describedby="basic-addon2"
+                      onChange={this.editorSubjectChanged}
                     />
                     <InputGroup.Append>
                       <Button variant="outline-secondary">儲存</Button>
@@ -61,11 +69,16 @@ class App extends React.Component {
                     className="area-editor-content"
                     as="textarea"
                     aria-label="With textarea"
-                    onChange={this.editorContentChanged} />
+                    onChange={this.editorContentChanged}
+                  />
                 </div>
               </Container>
             </Col>
-            <Col xs={5}>
+            <Col xs={5} className="area-markdown-background">
+              <Container className="area-markdown-subject">
+                <h3>{this.state.editor.subject}</h3>
+                <hr></hr>
+              </Container>
               <Container className="area-markdown">
                 <ReactMarkdown source={this.state.editor.content} />
               </Container>

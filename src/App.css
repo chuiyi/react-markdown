@@ -47,6 +47,17 @@
   height: calc(100vh - 160px) !important;
 }
 
+.area-markdown-background {
+  background-color: blanchedalmond;
+  overflow: auto;
+  height: calc(100vh - 60px);
+}
+
+.area-markdown-subject {
+  padding: 20px;
+  text-align: left;
+}
+
 .area-markdown {
   margin: 20px;
   text-align: left;
