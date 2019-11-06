@@ -20,3 +20,34 @@
 .App-link {
   color: #09d3ac;
 }
+
+.area-list-background {
+  background-color: lightgrey;
+  height: calc(100vh - 60px);
+}
+
+.area-list {
+  margin: 20px;
+}
+
+.area-editor-background {
+  background-color: antiquewhite;
+  height: calc(100vh - 60px);
+}
+
+.area-editor {
+  margin: 20px;
+}
+
+.area-editor-subject {
+  margin: 20px;
+}
+
+.area-editor-content {
+  height: calc(100vh - 160px) !important;
+}
+
+.area-markdown {
+  margin: 20px;
+  text-align: left;
+}
