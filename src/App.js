@@ -2,6 +2,9 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+import ReactMarkdown from 'react-markdown'
+const input = '# This is a header\n\nAnd this is a paragraph'
+
 function App() {
   return (
     <div className="App">
@@ -18,6 +21,7 @@ function App() {
         >
           Learn React
         </a>
+        <ReactMarkdown source={input} />
       </header>
     </div>
   );
