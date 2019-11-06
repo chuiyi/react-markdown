@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/react-markdown/static/css/main.b100e6da.chunk.css",
-    "main.js": "/react-markdown/static/js/main.80fab837.chunk.js",
-    "main.js.map": "/react-markdown/static/js/main.80fab837.chunk.js.map",
-    "runtime-main.js": "/react-markdown/static/js/runtime-main.ff85c906.js",
-    "runtime-main.js.map": "/react-markdown/static/js/runtime-main.ff85c906.js.map",
-    "static/js/2.4179d433.chunk.js": "/react-markdown/static/js/2.4179d433.chunk.js",
-    "static/js/2.4179d433.chunk.js.map": "/react-markdown/static/js/2.4179d433.chunk.js.map",
-    "index.html": "/react-markdown/index.html",
-    "precache-manifest.0b709f2fec42336d4265ab5b3bf62070.js": "/react-markdown/precache-manifest.0b709f2fec42336d4265ab5b3bf62070.js",
-    "service-worker.js": "/react-markdown/service-worker.js",
-    "static/css/main.b100e6da.chunk.css.map": "/react-markdown/static/css/main.b100e6da.chunk.css.map",
-    "static/media/logo.svg": "/react-markdown/static/media/logo.25bf045c.svg"
+    "main.css": "/react-markdown-editor/static/css/main.b100e6da.chunk.css",
+    "main.js": "/react-markdown-editor/static/js/main.8446034b.chunk.js",
+    "main.js.map": "/react-markdown-editor/static/js/main.8446034b.chunk.js.map",
+    "runtime-main.js": "/react-markdown-editor/static/js/runtime-main.40630e59.js",
+    "runtime-main.js.map": "/react-markdown-editor/static/js/runtime-main.40630e59.js.map",
+    "static/js/2.4179d433.chunk.js": "/react-markdown-editor/static/js/2.4179d433.chunk.js",
+    "static/js/2.4179d433.chunk.js.map": "/react-markdown-editor/static/js/2.4179d433.chunk.js.map",
+    "index.html": "/react-markdown-editor/index.html",
+    "precache-manifest.da62a63e231ca2b83b4319488cf3c848.js": "/react-markdown-editor/precache-manifest.da62a63e231ca2b83b4319488cf3c848.js",
+    "service-worker.js": "/react-markdown-editor/service-worker.js",
+    "static/css/main.b100e6da.chunk.css.map": "/react-markdown-editor/static/css/main.b100e6da.chunk.css.map",
+    "static/media/logo.svg": "/react-markdown-editor/static/media/logo.25bf045c.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.ff85c906.js",
+    "static/js/runtime-main.40630e59.js",
     "static/js/2.4179d433.chunk.js",
     "static/css/main.b100e6da.chunk.css",
-    "static/js/main.80fab837.chunk.js"
+    "static/js/main.8446034b.chunk.js"
   ]
 }
