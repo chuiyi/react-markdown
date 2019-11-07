@@ -14,6 +14,9 @@ class SideBarColumn extends React.Component {
         return (
             <ListGroup.Item>
                 <div style={{ textAlign: 'left' }}>
+                    article id: {this.props.id}
+                </div>
+                <div style={{ textAlign: 'left' }}>
                     {this.props.subject}
                 </div>
                 <p></p>

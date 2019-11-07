@@ -79,6 +79,10 @@ class App extends React.Component {
 
   deleteMarkdown = (e) => {
     let id = Number(e.target.getAttribute('markdownId'));
+    var isDelete = window.confirm("Confirm to delete article " + id + "?");
+    if (!isDelete) {
+      return;
+    }
     var tempState = this.state;
     var deleteArticleIndex = -1;
     for (var x = 0; x < tempState.articles.length; x++) {
@@ -92,6 +96,7 @@ class App extends React.Component {
     }
     this.saveListMarkdown(tempState.articles);
     this.setState(tempState);
+    window.alert("Article " + id + "is deleted!");
   }
 
   editorSubjectChanged = (e) => {
@@ -125,6 +130,7 @@ class App extends React.Component {
             <Col xs={5} className="area-editor-background">
               <Container className="area-editor">
                 <div>
+                  <label>article id: {this.state.editor.id}</label>
                   <InputGroup className="mb-3">
                     <FormControl
                       placeholder="Subject"
