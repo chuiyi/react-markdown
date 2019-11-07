@@ -22,12 +22,15 @@
 }
 
 .area-list-background {
-  background-color: lightgrey;
+  background-color: aliceblue;
   height: calc(100vh - 60px);
+  margin: 0px !important;
+  padding: 0px !important;
 }
 
 .area-list {
-  margin: 20px;
+  margin: 0px !important;
+  padding: 0px !important;
 }
 
 .area-editor-background {
@@ -48,7 +51,7 @@
 }
 
 .area-markdown-background {
-  background-color: blanchedalmond;
+  background-color: lightgray;
   overflow: auto;
   height: calc(100vh - 60px);
 }
