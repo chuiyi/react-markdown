@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2244d4fe000423414c1758212372882b",
+    "revision": "528b6d11d279d20c784371dec1fcf46a",
     "url": "/react-markdown-editor/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-markdown-editor/static/css/2.b0bb7f2c.chunk.css"
   },
   {
-    "revision": "9c1247d605a00cac2d14",
+    "revision": "9c0a2de8e652af639a64",
     "url": "/react-markdown-editor/static/css/main.75cce84c.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-markdown-editor/static/js/2.e7f4abb3.chunk.js"
   },
   {
-    "revision": "9c1247d605a00cac2d14",
-    "url": "/react-markdown-editor/static/js/main.bce1170c.chunk.js"
+    "revision": "9c0a2de8e652af639a64",
+    "url": "/react-markdown-editor/static/js/main.1404754a.chunk.js"
   },
   {
     "revision": "822470351e8f79be6e64",
